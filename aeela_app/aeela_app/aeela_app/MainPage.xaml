@@ -5,20 +5,20 @@
              x:Class="aeela_app.MainPage">
 
     <MasterDetailPage.Master>
-        <local:MasterPage x:Name="master page">
-            
+        <local:MasterPage x:Name="masterpage">
+
         </local:MasterPage>
     </MasterDetailPage.Master>
-    
+
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
                 <local:HomePage>
-                    
+
                 </local:HomePage>
             </x:Arguments>
         </NavigationPage>
-       
+
     </MasterDetailPage.Detail>
 
 </MasterDetailPage>

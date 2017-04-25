@@ -11,7 +11,8 @@
 namespace aeela_app {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("G:\\aeela\\aeela_app\\aeela_app\\aeela_app\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\castro_53471\\Source\\Repos\\aeela\\aeela\\aeela\\aeela_app\\aeela_app\\aeela_ap" +
+        "p\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -20,7 +21,7 @@ namespace aeela_app {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            masterpage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::aeela_app.MasterPage>(this, "master page");
+            masterpage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::aeela_app.MasterPage>(this, "masterpage");
         }
     }
 }

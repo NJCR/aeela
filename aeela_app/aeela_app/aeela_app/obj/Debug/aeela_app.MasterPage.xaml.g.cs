@@ -11,8 +11,8 @@
 namespace aeela_app {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\castro_53471\\Source\\Repos\\aeela\\aeela_app\\aeela_app\\aeela_app\\MasterPage" +
-        ".xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\castro_53471\\Source\\Repos\\aeela\\aeela\\aeela\\aeela_app\\aeela_app\\aeela_ap" +
+        "p\\MasterPage.xaml")]
     public partial class MasterPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

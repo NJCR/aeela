@@ -4,17 +4,20 @@
              x:Class="aeela_app.MasterPage"
              Padding="0,50,0,0"
              Icon=""
-             Title="Web components">
+             BackgroundColor="AliceBlue"
+             Title="AEELA">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand">
             <ListView
                 x:Name="listView"
                 VerticalOptions="FillAndExpand"
-                SeparatorVisibility="None">
+                SeparatorVisibility="Default"
+                BackgroundColor="WhiteSmoke">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell
                             Text="{Binding Title}"
+                            TextColor ="Black"
                             ImageSource="{Binding IconSource}"></ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
